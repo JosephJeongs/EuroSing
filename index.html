@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> EuroSing </title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+</head>
+
+<body>
+    <audio id="audio" controls autoplay>
+        <source src="music/Shining Sprinter - megawolf77.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <h1> EuroSing lol</h1>
+
+
+
+    <script>
+        let audio = document.getElementById("sprinter");
+        audio.autoplay = true;
+        audio.load();
+        // function enableAutoplay() { 
+        // audio.autoplay = true;
+        // audio.load();
+        // }
+
+        function disableAutoplay() { 
+            audio.autoplay = false;
+            audio.load();
+        } 
+
+
+    </script>
+</body>
+</html>
